@@ -14,6 +14,8 @@ git remote add origin https://github.com/leonardodc/praticando_git.git
 -configurando origin como uma variável com o endereço do repositório do github
 -primeiro foi criado o repositório no github e copiado o link
 
+git push origin master
+-empurra para o github
 
 
 echo> xxx.txt - cria arquivo
