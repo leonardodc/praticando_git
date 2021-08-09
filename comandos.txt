@@ -1,0 +1,23 @@
+cria um diretórito para o repositório
+comando git init - para transformar em repositório
+
+git status
+git add * - para add todos arquivos no repositório
+git commit - m "xxxx" - comitar e com descrição
+git push - salva no github
+
+git config --list - mostra informações das configurações
+
+git remote -v - para informações do servidor - aparece se configurado
+
+git remote add origin https://github.com/leonardodc/praticando_git.git
+-configurando origin como uma variável com o endereço do repositório do github
+-primeiro foi criado o repositório no github e copiado o link
+
+git push origin master
+-empurra para o github
+
+
+echo> xxx.txt - cria arquivo
+
+
