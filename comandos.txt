@@ -17,7 +17,26 @@ git remote add origin https://github.com/leonardodc/praticando_git.git
 git push origin master
 -empurra para o github
 
+git pull origin master
+-puxa do github
+	
+git checkout main
+-muda de pasta
+
+git checkout -b teste
+-cria uma nova branch teste
+
+git merge xxx
+-mescla com a branche atual com a xxx
+
 
 echo> xxx.txt - cria arquivo
 
+O erro fatal: refusing to merge unrelated histories geralmente acontece quando você tenta fazer o git pull de um repositório remoto, mas o seu repositório local possuí um histórico de commits, branches, etc, diferente do que está no repositório remoto.
+Para permitir que o Git faça o merge de dois projetos com históricos diferentes, é só passar o parâmetro --allow-unrelated-histories quando for fazer o pull, assim:
+git pull origin master --allow-unrelated-histories
+- eu utilizei esse comando com o merge. Ele abriu o sublime e solicitou uma mensagem de commit para justificar. Escrevi "concatenando", ctrl + b e fechei o arquivo.
+- ele já entendeu
+
+depois fiz um novo push
 
