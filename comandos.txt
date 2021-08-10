@@ -10,6 +10,12 @@ git config --list - mostra informações das configurações
 
 git remote -v - para informações do servidor - aparece se configurado
 
+git branch - vai mostrar a branch ativa destacada e as demais
+git branch -m novo_nome_branch
+git branch -m nome_antigo nome_novo - se estiver na main para mudar as outras
+git branch -d nome_branch - para deletar
+
+
 git remote add origin https://github.com/leonardodc/praticando_git.git
 -configurando origin como uma variável com o endereço do repositório do github
 -primeiro foi criado o repositório no github e copiado o link
@@ -31,6 +37,18 @@ git merge xxx
 
 
 echo> xxx.txt - cria arquivo
+
+git stash save "adicionado arquivos iniciando alterações"
+git stash list - mostra a lista de stash
+git stash pop 1 (indice) - para retirar os arquivos do stash
+caso estiver trabalhando em uma branch secundária, adiciona o stash como se fosse uma caixinha temporária. Assim conforme mudar de branch, 
+os arquivos que estiver criando não fica te acompanhando.
+Se testar com status, não vai aparecer esses arquivos.
+Primeiro faz um Add, depois o stash.
+
+
+
+
 
 O erro fatal: refusing to merge unrelated histories geralmente acontece quando você tenta fazer o git pull de um repositório remoto, mas o seu repositório local possuí um histórico de commits, branches, etc, diferente do que está no repositório remoto.
 Para permitir que o Git faça o merge de dois projetos com históricos diferentes, é só passar o parâmetro --allow-unrelated-histories quando for fazer o pull, assim:
