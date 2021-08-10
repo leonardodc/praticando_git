@@ -51,11 +51,12 @@ git stash clear para limpar
 
 git log - log do git
 git log xxx - log dos arquivos da pasta selecionada ou do arquivo selecionado
+git log --oneline - log de forma reduzida
+git log --graph - log mais organizado
 
+apertando "e" ou ":q" para sair no meio de uma execução
 
-apertando "e" ou ":" para sair no meio de uma execução
-
-
+gitk - abre do windows graficos
 
 
 
