@@ -3,8 +3,8 @@ comando git init - para transformar em repositório
 
 git status
 git add * - para add todos arquivos no repositório
-git commit - m "xxxx" - comitar e com descrição
-git push - salva no github
+git commit -m "xxxx" - comitar e com descrição
+git push origin main - salva no github
 
 git config --list - mostra informações das configurações
 
@@ -27,7 +27,7 @@ git checkout -b teste
 -cria uma nova branch teste
 
 git merge xxx
--mescla com a branche atual com a xxx
+-mescla com na branche atual com a xxx
 
 
 echo> xxx.txt - cria arquivo
