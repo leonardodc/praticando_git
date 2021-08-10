@@ -35,16 +35,25 @@ git checkout -b teste
 git merge xxx
 -mescla com na branche atual com a xxx
 
+git clone http... github - faz um clone do repositório para o seu
+
 
 echo> xxx.txt - cria arquivo
 
 git stash save "adicionado arquivos iniciando alterações"
 git stash list - mostra a lista de stash
 git stash pop 1 (indice) - para retirar os arquivos do stash
-caso estiver trabalhando em uma branch secundária, adiciona o stash como se fosse uma caixinha temporária. Assim conforme mudar de branch, 
-os arquivos que estiver criando não fica te acompanhando.
-Se testar com status, não vai aparecer esses arquivos.
-Primeiro faz um Add, depois o stash.
+	caso estiver trabalhando em uma branch secundária, adiciona o stash como se fosse uma caixinha temporária. Assim conforme mudar de branch, os arquivos que estiver criando não fica te acompanhando.
+	Se testar com status, não vai aparecer esses arquivos.
+	Primeiro faz um Add, depois o stash.
+
+git stash clear para limpar
+
+git log - log do git
+git log xxx - log dos arquivos da pasta selecionada ou do arquivo selecionado
+
+
+apertando "e" ou ":" para sair no meio de uma execução
 
 
 
